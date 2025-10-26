@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# HTF25-Team-110
 
 ## GitHub submission guide
@@ -66,3 +67,10 @@ In this Readme, you will find a guide on how to fork this Repository, add files 
 </details>
 
 ## Thanks for participating!
+=======
+# Firebase Studio
+
+This is a NextJS starter in Firebase Studio.
+
+To get started, take a look at src/app/page.tsx.
+>>>>>>> krishna
