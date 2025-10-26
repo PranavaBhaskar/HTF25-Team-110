@@ -17,6 +17,7 @@ import {
 import { Logo } from '@/components/logo';
 import { Button } from '@/components/ui/button';
 import { SIDEBAR_NAV_ITEMS, SIDEBAR_FOOTER_NAV_ITEMS } from '@/lib/constants';
+import { Settings, User } from 'lucide-react';
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
