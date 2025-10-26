@@ -26,14 +26,12 @@ export const TONE_OPTIONS = [
 ];
 
 export const VOICE_OPTIONS = [
-  { value: 'en-US-Standard-A', label: 'Male (Standard)' },
-  { value: 'en-US-Wavenet-D', label: 'Male (Natural)' },
-  { value: 'en-US-Standard-C', label: 'Female (Standard)' },
-  { value: 'en-US-Wavenet-F', label: 'Female (Natural)' },
-  { value: 'en-GB-Standard-B', label: 'British Male' },
-  { value: 'en-GB-Standard-A', label: 'British Female' },
-  { value: 'en-AU-Standard-B', label: 'Australian Male' },
-  { value: 'en-AU-Standard-A', label: 'Australian Female' },
+    { value: 'Algenib', label: 'Male 1' },
+    { value: 'Achernar', label: 'Male 2' },
+    { value: 'Enif', label: 'Female 1' },
+    { value: 'Capella', label: 'Female 2' },
+    { value: 'gCda2Z3zHj2244a5a542', label: 'British Male' },
+    { value: 'gCda2Z3zHj2244a5a543', label: 'British Female' },
 ];
 
 export const DUMMY_PODCASTS = [
