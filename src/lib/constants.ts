@@ -5,7 +5,6 @@ export const SIDEBAR_NAV_ITEMS = [
   { href: '/upload', label: 'Upload', icon: Upload },
   { href: '/history', label: 'History', icon: History },
   { href: '/profile', label: 'Profile', icon: User },
-  { href: '/settings', label: 'Settings', icon: Settings },
 ];
 
 export const SIDEBAR_FOOTER_NAV_ITEMS = [

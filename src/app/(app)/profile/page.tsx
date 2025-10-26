@@ -7,17 +7,19 @@ import { PageHeader } from "@/components/page-header"
 import { SUMMARY_LENGTH_OPTIONS, TONE_OPTIONS, VOICE_OPTIONS } from "@/lib/constants"
 import { Separator } from "@/components/ui/separator"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import Link from "next/link"
+import { Settings } from "lucide-react"
 
 export default function ProfilePage() {
   return (
     <>
       <PageHeader
         title="Your Profile"
-        description="Manage your personal details and preferences."
+        description="Manage your personal details and generation preferences."
       />
       
       <div className="grid gap-8 md:grid-cols-3">
-        <div className="md:col-span-1">
+        <div className="md:col-span-1 space-y-4">
           <Card>
             <CardHeader className="items-center">
               <Avatar className="h-24 w-24 mb-4">
@@ -29,6 +31,18 @@ export default function ProfilePage() {
             </CardHeader>
             <CardContent>
               <Button variant="outline" className="w-full">Change Profile Photo</Button>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle>Application</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <Button variant="outline" className="w-full" asChild>
+                <Link href="/settings">
+                  <Settings className="mr-2 h-4 w-4" /> Go to Settings
+                </Link>
+              </Button>
             </CardContent>
           </Card>
         </div>
