@@ -1,5 +1,6 @@
 'use client';
 
+import * as React from 'react';
 import { Button } from '@/components/ui/button';
 import {
   Card,
@@ -14,6 +15,7 @@ import { Separator } from '@/components/ui/separator';
 import { Switch } from '@/components/ui/switch';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { useTheme } from 'next-themes';
+import { cn } from '@/lib/utils';
 
 export default function SettingsPage() {
   const { setTheme, theme } = useTheme();
